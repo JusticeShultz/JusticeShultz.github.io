@@ -55,28 +55,62 @@
 		<div class="one_half second">
             <a href="#"><img src="https://github.com/JusticeShultz/JusticeShultz.github.io/blob/master/images/DiscordBotImages/Goblin.png?raw=true" alt="Woops, there was an error loading that image!"></a>
         </div>
-		<div class="one_half first">
+        <div class="one_half first">
             <p><strong>Overview</strong></p>
-            <table style="width:150%">
-			  <tr>
-				<th>Command           </th>
-				<th>Function          </th> 
-				<th>Prefixes          </th>
-				<th>Permission Level  </th>
-			  </tr>
-			  <tr>
-				<td>-help</td>
-				<td>This command will display the general help embed message in the chat channel the command was executed in.</td> 
-				<td>-help, -h</td>
-				<td>Anyone</td>
-			  </tr>
-			  <tr>
-				<td>-StartServer</td>
-				<td>This command starts the servers initialization with the bot. This will generate several new Roles and Text Channels in the server. This command is somewhat obstructive so it is limited to admins only. Once this command is activated all of your users will get role updates as well if they have previous data. Not using this command will make the bot not function correctly in your server.</td> 
-				<td>-StartServer, -BeginServer</td>
-				<td>Admin</td>
-			  </tr>
-			</table>
+            <!-- border-spacing: 60px; -->
+            <style>
+                table {
+                    border-collapse: collapse;
+                }
+
+                table th {
+                    text-align: center;
+                    background-color: dodgerblue;
+                    color: #000;
+                    padding: 10px 120px 10px 120px
+                }
+
+                table td {
+                    border: 1px solid #e3e3e3;
+                    padding: 4px 8px;
+                }
+
+                table tr:nth-child(odd) td {
+                    background-color: #e7edf0;
+                }
+            </style>
+            <table class=" fl_left">
+                <tr>
+                    <th>Command           </th>
+                    <th>Function          </th>
+                    <th>Prefixes          </th>
+                    <th>Permission Level  </th>
+                </tr>
+                <tr>
+                    <td><h1><b>Help</b></h1></td>
+                    <td>This command will display the general help embed message in the chat channel the command was executed in.</td>
+                    <td><b>-help, -h</b></td>
+                    <td><h3><b>Anyone</b></h3></td>
+                </tr>
+                <tr>
+                    <td><h1><b>Start Server</b></h1></td>
+                    <td>This command starts the servers initialization with the bot. This will generate several new Roles and Text Channels in the server. This command is somewhat obstructive so it is limited to admins only. Once this command is activated all of your users will get role updates as well if they have previous data. Not using this command will make the bot not function correctly in your server.</td>
+                    <td><b>-StartServer, -BeginServer</b></td>
+                    <td><h3><b>Admin</b></h3></td>
+                </tr>
+                <tr>
+                    <td><h1><b>Create a Profile</b></h1></td>
+                    <td>Use this command to create your profile. The command should be laid out as -begin [Class] [Name] [Age], if your input is valid your profile should register correctly.</td>
+                    <td><b>-begin [Class] [Name] [Age]</b></td>
+                    <td><h3><b>Anyone</b></h3></td>
+                </tr>
+                <tr>
+                    <td><h1><b>Check Your Profile</b></h1></td>
+                    <td>Use this command to check your profile. This will open your save file and write a embedded markup of your current stats to show you things like your needed XP and Level, etc. Additionally you may tag someone like @Robin and it will show their profile.</td>
+                    <td><b>-profile, -profile [User], -p, -p [User]</b></td>
+                    <td><h3><b>Anyone</b></h3></td>
+                </tr>
+            </table>
         </div>
     </div>
     <!-- ################################################################################################ -->
