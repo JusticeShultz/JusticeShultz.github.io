@@ -45,17 +45,38 @@
     </div>
     <div class="group">
         <div class="one_half first">
-            <p><strong>Bio</strong></p>
+            <p><strong>Overview</strong></p>
             <p>
                 Welcome to the world of Asteria, a land of mythic beasts and a mighty guild. Fight and quest for huge bounties, rewards and ranks! Make a name for yourself throughout the realms and fight to be the best!
             </p>
             <p class="btmspace-30">The Discord RPG Bot is written entirely in C# using the Discord.NET Core. Here you will find a full documentation of commands and getting the bot started on your server!</p>
             <p class="btmspace-30">It should be noted that the bot has some dependency roles and channels it will auto generate in your server on intialization, this means you should be careful when adding the bot to your server as it could be considered destructive.</p>
         </div>
-        <div class="one_half">
-            <p><strong>RPG Discord Bot Profile Stucture</strong></p>
-            <a href="#"><img src="https://github.com/JusticeShultz/JusticeShultz.github.io/blob/master/images/demo/AssassinExample.PNG?raw=true" alt="Woops, there was an error loading that image!"></a>
-            <p>This Discord bot holds user data in an Sqlite Database and is then formatted into a profile structure, like seen above.</p>
+		<div class="one_half second">
+            <a href="#"><img src="https://github.com/JusticeShultz/JusticeShultz.github.io/blob/master/images/DiscordBotImages/Goblin.png?raw=true" alt="Woops, there was an error loading that image!"></a>
+        </div>
+		<div class="one_half first">
+            <p><strong>Overview</strong></p>
+            <table style="width:150%">
+			  <tr>
+				<th>Command           </th>
+				<th>Function          </th> 
+				<th>Prefixes          </th>
+				<th>Permission Level  </th>
+			  </tr>
+			  <tr>
+				<td>-help</td>
+				<td>This command will display the general help embed message in the chat channel the command was executed in.</td> 
+				<td>-help, -h</td>
+				<td>Anyone</td>
+			  </tr>
+			  <tr>
+				<td>-StartServer</td>
+				<td>This command starts the servers initialization with the bot. This will generate several new Roles and Text Channels in the server. This command is somewhat obstructive so it is limited to admins only. Once this command is activated all of your users will get role updates as well if they have previous data. Not using this command will make the bot not function correctly in your server.</td> 
+				<td>-StartServer, -BeginServer</td>
+				<td>Admin</td>
+			  </tr>
+			</table>
         </div>
     </div>
     <!-- ################################################################################################ -->
