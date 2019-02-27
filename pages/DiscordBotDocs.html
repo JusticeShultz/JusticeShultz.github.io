@@ -10,11 +10,10 @@
     <div class="wrapper row1">
         <header id="header" class="hoc clear">
             <div id="logo" class="fl_left">
-                <h1><b><a href="https://github.com/JusticeShultz">Discord RPG Bot Documentation</a></b></h1>
+                <p><strong><font size="+4">Discord RPG Bot Documentation<br></font></strong></p>
             </div>
             <div id="quickinfo" class="fl_right">
-                <ul class="nospace inline">
-                </ul>
+                <ul class="nospace inline"></ul>
             </div>
         </header>
     </div>
@@ -22,124 +21,264 @@
         <nav id="mainav" class="hoc clear">
             <ul class="clear">
                 <li><a href="../index.html">Home</a></li>
-                    <li><a href="https://github.com/JusticeShultz">GitHub</a></li>
-                    <li><a href="https://twitter.com/JusticeShultz">Twitter</a></li>
-                    <li><a href="https://www.linkedin.com/in/justice-shultz-76370b169">LinkedIn</a></li>
-                </ul>
-            </nav>
-        </div>
-        <div class="wrapper bgded overlay" style="background-image:url('../images/demo/backgrounds/01.png');">
-            <section id="breadcrumb" class="hoc clear">
-                <h6 class="heading">Discord RPG Bot Docs</h6>
-                <ul>
-                    <li><a href="../index.html">Home</a></li>
-                    <li><a href="#">Discord RPG Bot Docs</a></li>
-                </ul>
-            </section>
-        </div>
-		<div class="wrapper row3">
-  <section class="hoc container clear"> 
-    <!-- ################################################################################################ -->
-    <div class="sectiontitle">
-      <h6 class="heading">Documentation</h6>
+                <li><a href="https://github.com/JusticeShultz">GitHub</a></li>
+                <li><a href="https://twitter.com/JusticeShultz">Twitter</a></li>
+                <li><a href="https://www.linkedin.com/in/justice-shultz-76370b169">LinkedIn</a></li>
+            </ul>
+        </nav>
     </div>
-    <div class="group">
-        <div class="one_half first">
-            <p><strong>Overview</strong></p>
-            <p>
-                Welcome to the world of Asteria, a land of mythic beasts and a mighty guild. Fight and quest for huge bounties, rewards and ranks! Make a name for yourself throughout the realms and fight to be the best!
-            </p>
-            <p class="btmspace-30">The Discord RPG Bot is written entirely in C# using the Discord.NET Core. Here you will find a full documentation of commands and getting the bot started on your server!</p>
-            <p class="btmspace-30">It should be noted that the bot has some dependency roles and channels it will auto generate in your server on intialization, this means you should be careful when adding the bot to your server as it could be considered destructive.</p>
-        </div>
-		<div class="one_half second">
-            <a href="#"><img src="https://github.com/JusticeShultz/JusticeShultz.github.io/blob/master/images/DiscordBotImages/Goblin.png?raw=true" alt="Woops, there was an error loading that image!"></a>
-        </div>
-        <div class="one_half first">
-            <p><strong>Overview</strong></p>
-            <!-- border-spacing: 60px; -->
-            <style>
-                table {
-                    border-collapse: collapse;
-                }
-
-                table th {
-                    text-align: center;
-                    background-color: dodgerblue;
-                    color: #000;
-                    padding: 10px 120px 10px 120px
-                }
-
-                table td {
-                    border: 1px solid #e3e3e3;
-                    padding: 4px 8px;
-                }
-
-                table tr:nth-child(odd) td {
-                    background-color: #e7edf0;
-                }
-            </style>
-            <table class=" fl_left">
-                <tr>
-                    <th>Command           </th>
-                    <th>Function          </th>
-                    <th>Prefixes          </th>
-                    <th>Permission Level  </th>
-                </tr>
-                <tr>
-                    <td><h1><b>Help</b></h1></td>
-                    <td>This command will display the general help embed message in the chat channel the command was executed in.</td>
-                    <td><b>-help, -h</b></td>
-                    <td><h3><b>Anyone</b></h3></td>
-                </tr>
-                <tr>
-                    <td><h1><b>Start Server</b></h1></td>
-                    <td>This command starts the servers initialization with the bot. This will generate several new Roles and Text Channels in the server. This command is somewhat obstructive so it is limited to admins only. Once this command is activated all of your users will get role updates as well if they have previous data. Not using this command will make the bot not function correctly in your server.</td>
-                    <td><b>-StartServer, -BeginServer</b></td>
-                    <td><h3><b>Admin</b></h3></td>
-                </tr>
-                <tr>
-                    <td><h1><b>Create a Profile</b></h1></td>
-                    <td>Use this command to create your profile. The command should be laid out as -begin [Class] [Name] [Age], if your input is valid your profile should register correctly.</td>
-                    <td><b>-begin [Class] [Name] [Age]</b></td>
-                    <td><h3><b>Anyone</b></h3></td>
-                </tr>
-                <tr>
-                    <td><h1><b>Check Your Profile</b></h1></td>
-                    <td>Use this command to check your profile. This will open your save file and write a embedded markup of your current stats to show you things like your needed XP and Level, etc. Additionally you may tag someone like @Robin and it will show their profile.</td>
-                    <td><b>-profile, -profile [User], -p, -p [User]</b></td>
-                    <td><h3><b>Anyone</b></h3></td>
-                </tr>
-            </table>
-        </div>
+    <div class="wrapper bgded overlay" style="background-image:url('../images/demo/backgrounds/01.png');">
+        <section id="breadcrumb" class="hoc clear">
+            <p><strong><font size="+3">Discord RPG Bot Docs<br></font></strong></p>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="#">Discord RPG Bot Docs</a></li>
+            </ul>
+        </section>
     </div>
-    <!-- ################################################################################################ -->
-  </section>
-</div>
-        <div class="wrapper overlay coloured">
-            <figure class="hoc clear">
-                <ul class="nospace group logos">
-                    <li class="one_quarter first"><img src="../images/demo/222x50.png" alt=""></a></li>
-                    <li class="one_quarter"><img src="../images/demo/222x50.png" alt=""></a></li>
-                    <li class="one_quarter"><img src="../images/demo/222x50.png" alt=""></a></li>
-                    <li class="one_quarter"><img src="../images/demo/222x50.png" alt=""></a></li>
-                </ul>
-            </figure>
-        </div>
-        <div class="wrapper row4 bgded overlay" style="background-image:url('images/demo/backgrounds/04.png');">
-            <footer id="footer" class="hoc clear">
-            </footer>
-        </div>
-        <div class="wrapper row5">
-            <div id="copyright" class="hoc clear">
-                <p class="fl_left"></a></p>
-                <p class="fl_right"><a target="_blank" href="" title=""></a></p>
+    <div class="wrapper row3">
+        <section class="hoc container clear">
+            <!-- ################################################################################################ -->
+            <div class="sectiontitle">
+                <h6 class="heading">Documentation</h6>
+            </div>
+            <div class="group">
+                <div class="one_half first">
+                    <p><strong>Overview</strong></p>
+                    <p>
+                        Welcome to the world of Asteria, a land of mythic beasts and a mighty guild. Fight and quest for huge bounties, rewards and ranks! Make a name for yourself throughout the realms and fight to be the best!
+                    </p>
+                    <p class="btmspace-30">The Discord RPG Bot is written entirely in C# using the Discord.NET Core. Here you will find a full documentation of commands and getting the bot started on your server!</p>
+                    <p class="btmspace-30">It should be noted that the bot has some dependency roles and channels it will auto generate in your server on intialization, this means you should be careful when adding the bot to your server as it could be considered destructive.</p>
+                </div>
+                <div class="one_half second">
+                    <a href="#"><img src="https://github.com/JusticeShultz/JusticeShultz.github.io/blob/master/images/DiscordBotImages/Goblin.png?raw=true" alt="Woops, there was an error loading that image!"></a>
+                </div>
+                <div class="one_half first">
+                    <p><strong>Overview</strong></p>
+                    <!-- border-spacing: 60px; -->
+                    <style>
+                        table {
+                            border-collapse: collapse;
+                        }
+
+                            table th {
+                                text-align: center;
+                                background-color: dodgerblue;
+                                color: #000;
+                                padding: 10px 120px 10px 60px
+                            }
+
+                            table td {
+                                border: 1px solid #e3e3e3;
+                                padding: 4px 8px;
+                            }
+
+                            table tr:nth-child(odd) td {
+                                background-color: #e7edf0;
+                            }
+                    </style>
+                    <table class=" fl_left">
+                        <tr>
+                            <th>Overview           </th>
+                            <th>Function          </th>
+                            <th>Prefixes          </th>
+                            <th>Permission Level  </th>
+                        </tr>
+                        <tr>
+                            <td><b>Prefix's</b></td>
+                            <td>The bot uses a - symbol to represent a command. You may also mention the bot as @Bot [Command]. (e.g. @Bot Help)</td>
+                            <td><b>- & @Bot</b></td>
+                            <td><b></b></td>
+                        </tr>
+                        <tr>
+                            <td><b>Admin Vs. Bot Admin</b></td>
+                            <td>"Admin" refers to a server admin, someone who isn't part of the bots development. A "Bot Admin" refers to someone with internal access to the bot - like a game master. "Bot Admins" control the economy and handle issues relating to the bot.</td>
+                            <td><b></b></td>
+                            <td><b></b></td>
+                        </tr>
+                        <tr>
+                            <td><b>General Integrated Help</b></td>
+                            <td>This command will display the general help embed message in the chat channel the command was executed in.</td>
+                            <td><b>-help</b></td>
+                            <td><b>Anyone</b></td>
+                        </tr>
+                        <tr>
+                            <td><b>Initializing your server with the bot</b></td>
+                            <td>This command starts the servers initialization with the bot. This will generate several new Roles and Text Channels in the server. This command is somewhat obstructive so it is limited to admins only. Once this command is activated all of your users will get role updates as well if they have previous data. Not using this command will make the bot not function correctly in your server.</td>
+                            <td><b>-startserver</b></td>
+                            <td><b>Admin & Bot Admin</b></td>
+                        </tr>
+                        <tr>
+                            <td><b>Creating a profile</b></td>
+                            <td>Use this command to create your profile. The command should be laid out as -begin [Class] [Name] [Age], if your input is valid your profile should register correctly.</td>
+                            <td><b>-begin [Class] [Name] [Age]</b></td>
+                            <td><b>Anyone</b></td>
+                        </tr>
+                        <tr>
+                            <td><b>Checking your profile</b></td>
+                            <td>Use this command to check your profile. This will open your save file and write a embedded markup of your current stats to show you things like your needed XP and Level, etc. Additionally you may tag someone like @Robin and it will show their profile.</td>
+                            <td><b><br>-profile<br>-profile [User]<br>-p<br>-p [User]</b></td>
+                            <td><b>Anyone</b></td>
+                        </tr>
+                        <tr>
+                            <td><b>Seeing available classes</b></td>
+                            <td>Get a list of all available classes to be in the server.</td>
+                            <td><b>-class<br>-classes</b></td>
+                            <td><b>Anyone</b></td>
+                        </tr>
+                        <tr>
+                            <td><b>Spawning enemies</b></td>
+                            <td>This command may only be used in the level zones. Using this command will spawn a random enemy with random stats that you and other users may fight.</td>
+                            <td><b>-spawn<br>-s<br>-help spawn</b></td>
+                            <td><b>Anyone</b></td>
+                        </tr>
+                        <tr>
+                            <td><b>Fighting enemies</b></td>
+                            <td>This command will be used to simulate 1 turn of a fight with a spawned enemy. Doing -fight [Count] will cause you to simulate fighting that many times unless you die or kill the monster in the process. Defeating a monster will provide currency and XP rewards.</td>
+                            <td><b>-fight<br>-f<br>-fight [Count]<br>-f [Count]</b></td>
+                            <td><b>Anyone</b></td>
+                        </tr>
+                        <tr>
+                            <td><b>Gold - Giving</b></td>
+                            <td>This command allows users to give other users their gold. Doing -gold give [User] [Amount] will give that user a certain amount of your gold to the specified user. If a bot admin uses this command they may put any number and it will not subtract from their gold amount.</td>
+                            <td><b>-gold give [User] [Amount]<br></b></td>
+                            <td><b>Bot Admin & Anyone</b></td>
+                        </tr>
+                        <tr>
+                            <td><b>Gold - Taking</b></td>
+                            <td>This is a bot admin only command. With this command the user may specify who to take gold from and then take a specified amount from them. The gold is not distributed to anyone and simply vanishes.</td>
+                            <td><b>-gold take [User] [Amount]</b></td>
+                            <td><b>Bot Admin</b></td>
+                        </tr>
+                        <tr>
+                            <td><b>Gold - Displaying</b></td>
+                            <td>This command simply displays your own gold. To view someone elses gold you must use -profile [User].</td>
+                            <td><b>-gold<br>-gold me</b></td>
+                            <td><b>Anyone</b></td>
+                        </tr>
+                        <tr>
+                            <td><b>Displaying a servers user amount</b></td>
+                            <td>This command simply says how many users are in the server.</td>
+                            <td><b>-count<br>-amount<br></b></td>
+                            <td><b>Anyone</b></td>
+                        </tr>
+                        <tr>
+                            <td><b>Display the servers leaderboard</b></td>
+                            <td>This command displays a leaderboard for every user in the server. This is a home server command only.</td>
+                            <td><b>-leaderboard<br>-lb<br></b></td>
+                            <td><b>Anyone - must be in the development server</b></td>
+                        </tr>
+                        <tr>
+                            <td><b>Go on a quest</b></td>
+                            <td>This command allows you to go on a quest. You may quest every 5 minutes in the questing channel for small amounts of gold and guild gems.</td>
+                            <td><b>-quest<br>-q<br></b></td>
+                            <td><b>Anyone</b></td>
+                        </tr>
+                        <tr>
+                            <td><b>Go on your daily quest</b></td>
+                            <td>This command allows you to go on a daily quest. You may quest every 24 hours in the daily blessings channel to earn large amounts of gold and guild gems.</td>
+                            <td><b>-daily<br>-d<br></b></td>
+                            <td><b>Anyone</b></td>
+                        </tr>
+                        <tr>
+                            <td><b>Switch your class</b></td>
+                            <td>You may use this command to switch your class. Note, this command will cost 500 gold coins to use. This command is purely cosmetic and your base stats will not change.</td>
+                            <td><b>-switchclass<br>-changeclass<br></b></td>
+                            <td><b>Anyone - 500 Gold Cost</b></td>
+                        </tr>
+                        <tr>
+                            <td><b>Open the shop</b></td>
+                            <td>Use this command in the guild shop to get a list of every buyable item the shop keeper has in stock.</td>
+                            <td><b>-shop<br>-sh<br></b></td>
+                            <td><b>Anyone</b></td>
+                        </tr>
+                        <tr>
+                            <td><b>Buy an item from the shop</b></td>
+                            <td>Use this command in the guild shop to buy an item by it's ID. Open the shop to see the item ID's in the brackets([]). Note, using this command will buy the item if you have the funds, removing the funds from your account after the transaction is completed.</td>
+                            <td><b>-buy [ID]</b></td>
+                            <td><b>Anyone</b></td>
+                        </tr>
+                        <tr>
+                            <td><b>Display the event shop</b></td>
+                            <td>Use this command to see the special event items you may buy. Note, buying works the exact same as it does for normal items. Do -buy [ItemID] to purchase an event item.</td>
+                            <td><b>-event shop</b></td>
+                            <td><b>Anyone</b></td>
+                        </tr>
+                        <tr>
+                            <td><b>Display help for the current guild special event</b></td>
+                            <td>Use this command to get general help commands for the servers ongoing special event.</td>
+                            <td><b>-event help</b></td>
+                            <td><b>Anyone</b></td>
+                        </tr>
+                        <tr>
+                            <td><b>Display every active special event</b></td>
+                            <td>Use this command to display every ongoing special event in the server. This is admin only due to the spam in generates if used more than once.</td>
+                            <td><b>-event</b></td>
+                            <td><b>Admin</b></td>
+                        </tr>
+                        <tr>
+                            <td><b>Spam a user with pings</b></td>
+                            <td>Use this command if you don't like someone.</td>
+                            <td><b>-spam [User] [Amount]</b></td>
+                            <td><b>Admin</b></td>
+                        </tr>
+                        <tr>
+                            <td><b>Prune messages from a channel</b></td>
+                            <td>Use this command to remove a certain amount of messages from a channel. Please note, abuse of this command will result in a blacklisting of you and your servers use with our bot. This command causes slowdowns for everyone else if used in huge amounts.</td>
+                            <td><b>-prune [Amount]</b></td>
+                            <td><b>Admin</b></td>
+                        </tr>
+                        <tr>
+                            <td><b>Sending notices</b></td>
+                            <td>Use this command to send announcements through the  bot. Please note your announcement must be kept somewhat short. If it is long you will need to send the message yourself.</td>
+                            <td><b>-notice [Text]</b></td>
+                            <td><b>Admin</b></td>
+                        </tr>
+                        <tr>
+                            <td><b>Add Damage</b></td>
+                            <td>Use this command to give the capability to 1 shot anything.</td>
+                            <td><b>-thanos</b></td>
+                            <td><b>Bot Admin</b></td>
+                        </tr>
+                    </table>
+                    <div class="one_half first">
+                        <p><strong>Please Note</strong></p>
+                        <p>
+                            This bot is still in development and is not yet complete. This means weird errors and bugs will be encountered as you use the bot. Please report all errors to the dev discord server, it would be very helpful! I'd also like to know where I spelled things wrong due to being tired at 3AM...
+                        </p>
+                    </div>
+                    <div class="one_half second">
+                        <a href="#"><img src="https://github.com/JusticeShultz/JusticeShultz.github.io/blob/master/images/DiscordBotImages/Hastur.png?raw=true" alt="Woops, there was an error loading that image!" style="width:1000px; height:200px;"></a>
+                    </div>
+                </div>
+            </div>
+            <!-- ################################################################################################ -->
+        </section>
+    </div>
+    <div class="wrapper row5">
+        <div id="copyright" class="hoc clear">
+            <p class="fl_left"></a></p>
+            <p class="fl_right"><a target="_blank" href="" title=""></a></p>
+            <div class="one_half">
+                <p><strong><font size="+10">Discord RPG Bot<br></font>Created by Justice Shultz</strong></p>
             </div>
         </div>
-        <a id="backtotop" href="#top"><i class="fa fa-chevron-up"></i></a>
-        <script src="layout/scripts/jquery.min.js"></script>
-        <script src="layout/scripts/jquery.backtotop.js"></script>
-        <script src="layout/scripts/jquery.mobilemenu.js"></script>
-        <script src="layout/scripts/jquery.flexslider-min.js"></script>
-    </body>
+    </div>
+    <div class="wrapper overlay">
+        <figure class="hoc clear">
+            <ul class="nospace group logos">
+                <li class="one_quarter first"><img src="https://cdn.discordapp.com/attachments/542225685695954945/545394418690031631/MasterIII.png" alt="" style="width:75px;height:75px;"></a></li>
+                <li class="one_quarter"><img src="https://cdn.discordapp.com/attachments/542225685695954945/545394409580134430/Silver.png" alt="" style="width:75px;height:75px;"></a></li>
+                <li class="one_quarter"><img src="https://cdn.discordapp.com/attachments/542225685695954945/545394409580134430/Silver.png" alt="" style="width:75px;height:75px;"></a></li>
+                <li class="one_quarter"><img src="https://cdn.discordapp.com/attachments/542225685695954945/545394418690031631/MasterIII.png" alt="" style="width:75px;height:75px;"></a></li>
+            </ul>
+        </figure>
+    </div>
+    <a id="backtotop" href="#top"><i class="fa fa-chevron-up"></i></a>
+    <script src="layout/scripts/jquery.min.js"></script>
+    <script src="layout/scripts/jquery.backtotop.js"></script>
+    <script src="layout/scripts/jquery.mobilemenu.js"></script>
+    <script src="layout/scripts/jquery.flexslider-min.js"></script>
+</body>
     </html>
