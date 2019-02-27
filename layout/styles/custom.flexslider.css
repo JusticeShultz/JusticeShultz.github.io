@@ -1,13 +1,4 @@
-@charset "utf-8";
-/*
-Template Name: Carinary
-Author: <a href="http://www.os-templates.com/">OS Templates</a>
-Author URI: http://www.os-templates.com/
-Licence: Free to use under our free template licence terms
-Licence URI: http://www.os-templates.com/template-terms
-File: Custom Flexslider CSS => For FlexSlider v2.6.3
-*/
-
+﻿@charset "utf-8";
 /* Browser Resets
 --------------------------------------------------------------------------------------------------------------- */
 .flex-container a:hover, .flex-slider a:hover{outline:none;}
