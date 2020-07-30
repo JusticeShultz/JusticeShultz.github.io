@@ -1,5 +1,4 @@
 # Justice Shultz
-## I currently attend AIE in Seattle, WA while additionally working part time for DigiPen US
 
 ### Oh hey look stuff actually shows up!
 
